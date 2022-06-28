@@ -11,12 +11,14 @@ function RecipeList({recipes, deleteRecipe}) {
  <React.Fragment>
       <table>
         <thead> 
+          <tr>
            <th>Name</th>
           <th>Cuisine</th>
           <th>Photo</th>
           <th>Ingredients</th>
           <th>Preparation</th>
-          <th>Action</th>     
+          <th>Action</th>   
+          </tr>  
         </thead>
       </table>
     <div className="recipe-list">

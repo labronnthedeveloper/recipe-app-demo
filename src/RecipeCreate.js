@@ -44,6 +44,7 @@ function RecipeCreate({createRecipe}) {
                 onChange={handleChange}
                 value={formData.name}
                 placeholder="Name"
+                required="true"
                 />
             </td>
             <td>
@@ -54,6 +55,8 @@ function RecipeCreate({createRecipe}) {
                 onChange={handleChange}
                 value={formData.cuisine}
                 placeholder="Cuisine"
+                required="true"
+
                 />
             </td>
             <td>
@@ -64,6 +67,8 @@ function RecipeCreate({createRecipe}) {
                 value={formData.photo}                   
                 id="photo"
                 placeholder="URL"
+                required="true"
+
                 />
             </td>
             <td>
@@ -74,6 +79,8 @@ function RecipeCreate({createRecipe}) {
                 onChange={handleChange}
                 value={formData.ingredients}                  
                 placeholder="Ingredients"
+                required="true"
+
                 />
             </td>
             <td>
@@ -84,6 +91,8 @@ function RecipeCreate({createRecipe}) {
                 onChange={handleChange}
                 value={formData.preparation}     
                 placeholder="Preparation"
+                required="true"
+
                 />            </td>
             <td>
               <button type="submit">Create</button>
